@@ -1,0 +1,117 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there!",
+        "Hey! What can I do for you?",
+        "Hello! Nice to see you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "See you later", "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Bye! Take care!",
+        "Talk to you soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Anytime!",
+        "Glad I could help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?", "Who are you?", "Tell me your name"
+      ],
+      "responses": [
+        "I'm a chatbot created to help you!",
+        "You can call me ChatBot.",
+        "I'm your virtual assistant."
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you?", "How are you doing?", "Are you fine?"
+      ],
+      "responses": [
+        "I'm doing great! Thanks for asking.",
+        "I'm fine! What about you?",
+        "All good here!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?", "I need help", "Help me please"
+      ],
+      "responses": [
+        "Of course! Tell me what you need.",
+        "I'm here to help! What do you need?",
+        "Sure! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?", "Track my order", "Order status", "My order status"
+      ],
+      "responses": [
+        "Your order is on the way.",
+        "Please wait, your order will arrive soon.",
+        "Your order is being processed."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Cancel my order", "I want to cancel my order", "Cancel the order"
+      ],
+      "responses": [
+        "Your order has been canceled.",
+        "Done! Your order is canceled.",
+        "Your request has been processed successfully."
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather?", "Tell me the weather", "Weather today"
+      ],
+      "responses": [
+        "It's sunny today.",
+        "Looks like a nice day!",
+        "The weather is great today."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny"
+      ],
+      "responses": [
+        "Why did the computer get cold? Because it forgot to close Windows.",
+        "I told my computer I needed a break, and it froze.",
+        "Why do programmers prefer dark mode? Because light attracts bugs."
+      ]
+    }
+  ]
+}
